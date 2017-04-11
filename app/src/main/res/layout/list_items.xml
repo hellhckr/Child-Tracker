@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/mob"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="0dp"
+        android:gravity="center_horizontal|center"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:textColor="#000" />
+
+
+    <!--  <TextView
+          android:gravity="center|center_horizontal"
+          android:id="@+id/pm"
+          android:layout_width="0dp"
+          android:textStyle="bold"
+          android:focusable="false"
+          android:button="@drawable/custom_checkbox"
+          android:focusableInTouchMode="false"
+          android:layout_height="wrap_content"
+          android:layout_weight=".8"
+          android:shadowColor="@color/colorPrimary"
+          android:text="P" />  -->
+
+
+    </LinearLayout>

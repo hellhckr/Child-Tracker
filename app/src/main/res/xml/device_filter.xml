@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-device vendor-id="3018" product-id="33317" />
+    <!--<usb-device vendor-id="3018" product-id="33312" />-->
+    <!--     USB\VID_0BCA&PID_8225\5&18b5734d&0&2
+    <usb-device vendor-id="0bca" product-id="8225" />
+    -->
+</resources>

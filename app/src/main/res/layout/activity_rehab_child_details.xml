@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codemazk.codboy.missing.RehabChildDetails">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/nbr"
+        android:textSize="8pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        android:layout_below="@+id/bg"
+        android:layout_alignLeft="@+id/bg"
+        android:layout_alignStart="@+id/bg" />
+
+    <TextView
+        android:id="@+id/addrs"
+        android:textSize="8pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:textSize="8pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rehabed at"
+        android:layout_alignBaseline="@+id/nbr"
+        android:layout_alignBottom="@+id/nbr"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spotted at"
+        android:textSize="8pt"
+        android:layout_alignBaseline="@+id/addrs"
+        android:layout_alignBottom="@+id/addrs"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView15"
+        android:textSize="8pt"
+        android:layout_alignRight="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="14dp"
+        android:text="Child Description" />
+
+    <TextView
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:textSize="8pt"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addrs"
+        android:layout_alignStart="@+id/addrs"
+        android:layout_alignTop="@+id/textView16"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="Call \nVolunteer"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <Button
+        android:id="@+id/r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call\n Rehab Centre"
+        android:layout_alignBaseline="@+id/v"
+        android:layout_alignBottom="@+id/v"
+        android:layout_toRightOf="@+id/v"
+        android:layout_toEndOf="@+id/v"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Name"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addrs"
+        android:layout_alignStart="@+id/addrs"
+        android:layout_below="@+id/imageView4"
+        android:text="TextView" />
+
+</RelativeLayout>
